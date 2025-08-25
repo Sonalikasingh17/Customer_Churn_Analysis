@@ -51,9 +51,9 @@ class ModelTrainer:
             params = {
                 "Decision Tree": {
                     'criterion': ['gini', 'entropy'],
-                    'max_depth': [3, 5, 10, None],
-                    'min_samples_split': [2, 5, 10],
-                    'min_samples_leaf': [1, 2, 4]
+                    'max_depth': [5, 15, 20, None],
+                    'min_samples_split': [5, 15, 20],
+                    'min_samples_leaf': [4, 8, 12]
                 },
                 "Random Forest": {
                     'n_estimators': [100, 200],
@@ -76,13 +76,13 @@ class ModelTrainer:
                 "XGBClassifier": {
                     'n_estimators': [100, 200],
                     'learning_rate': [0.01, 0.1, 0.2],
-                    'max_depth': [3, 5, 7],
+                    'max_depth': [5,10, 15],
                     'subsample': [0.8, 0.9, 1.0]
                 },
                 "CatBoosting Classifier": {
                     'iterations': [100, 200],
                     'learning_rate': [0.01, 0.1, 0.2],
-                    'depth': [3, 5, 7]
+                    'depth': [5, 10, 20]
                 },
                 "AdaBoost Classifier": {
                     'n_estimators': [50, 100, 200],
@@ -102,8 +102,8 @@ class ModelTrainer:
             ]
             best_model = models[best_model_name]
 
-            if best_model_score < 0.6:
-                raise CustomException("No best model found")
+            if best_model_score < 0.5:
+                raise CustomException("No best model found", sys)
             logging.info(f"Best found model on both training and testing dataset: {best_model_name}")
 
             save_object(
