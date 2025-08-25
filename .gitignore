@@ -206,3 +206,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ML/Data specific
+# *.pkl
+*.joblib
+# artifacts/
+models/
+data/raw/
+data/processed/
+logs/
+.mlflow/
+
+# Datasets
+# *.csv
+*.json
+*.txt
+*.tsv
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
