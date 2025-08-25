@@ -1,4 +1,8 @@
 # Customer Churn Prediction - End-to-End ML Project
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-brightgreen?logo=streamlit)](https://sonalikasingh17-customer-churn-analysis-streamlit-app-ouocdt.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://python.org)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.2-orange.svg)](https://scikit-learn.org)
+
 
 A complete machine learning project for predicting customer churn using multiple data sources including demographics, transaction history, customer service interactions, and online activity patterns.
 
