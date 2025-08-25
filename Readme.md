@@ -172,21 +172,10 @@ The application uses comprehensive logging:
 - **Error Level**: Exception handling and debugging
 - **Log Files**: Stored in `logs/` directory with timestamps
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 👥 Author
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- **ML Engineer** - Initial work and development
+- **Project Work of Lloyds banking groups**
 
 ## 🙏 Acknowledgments
 
@@ -194,12 +183,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Streamlit team for the amazing web framework
 - Open source contributors for various libraries used
 
-## 📞 Support
-
-For support and questions:
-- Create an issue in the GitHub repository
-- Contact: ml@company.com
-
----
 
 **Built with ❤️ for better customer retention strategies**
