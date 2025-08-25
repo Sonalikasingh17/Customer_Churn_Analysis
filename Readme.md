@@ -173,15 +173,22 @@ The application uses comprehensive logging:
 - **Log Files**: Stored in `logs/` directory with timestamps
 
 
-## 👥 Author
-
-- **Project Work of Lloyds banking groups**
-
 ## 🙏 Acknowledgments
 
-- Scikit-learn community for excellent ML tools
-- Streamlit team for the amazing web framework
-- Open source contributors for various libraries used
+- **Lloyds Banking Group** for providing this virtual internship and project opportunity.  
+  This experience gave me practical exposure to the **end-to-end machine learning pipeline**, from data cleaning and preprocessing to model training, hyperparameter tuning, and deployment using Streamlit.  
+  Key learnings include:
+  - Handling and integrating multiple heterogeneous datasets  
+  - Feature engineering and preprocessing (scaling, encoding, temporal feature extraction)  
+  - Model comparison, evaluation, and the importance of recall in imbalanced datasets  
+  - Building an interactive analytics dashboard for business use-cases  
 
+- Scikit-learn community for excellent ML tools  
+- Streamlit team for the amazing web framework  
+- Open source contributors for various libraries used  
 
 **Built with ❤️ for better customer retention strategies**
+
+
+
+
