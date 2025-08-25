@@ -70,7 +70,8 @@ class ModelTrainer:
                 "Logistic Regression": {
                     'C': [0.1, 1, 10],
                     'penalty': ['l1', 'l2'],
-                    'solver': ['liblinear', 'saga']
+                    'solver': ['liblinear', 'saga'],
+                    'max_iter': [1000, 2000] 
                 },
                 "XGBClassifier": {
                     'n_estimators': [100, 200],
