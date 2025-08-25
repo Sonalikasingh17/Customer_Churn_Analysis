@@ -2,9 +2,16 @@ numpy
 pandas 
 seaborn
 matplotlib
+plotly
+
 scikit-learn
 scikit-optimize
 
+
+
+xgboost
+catboost
+lightgbm
 
 # other
 joblib
