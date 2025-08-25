@@ -196,14 +196,12 @@ elif page == "Analytics":
             # Spending distribution by churn
             fig = px.box(df, x='ChurnStatus', y='total_spent',
                         title='Total Spending Distribution by Churn Status')
-            fig.update_xaxis(tickvals=[0, 1], ticktext=['Retained', 'Churned'])
             st.plotly_chart(fig, use_container_width=True)
 
         with col2:
             # Login frequency by churn
             fig = px.box(df, x='ChurnStatus', y='LoginFrequency',
                         title='Login Frequency by Churn Status')
-            fig.update_xaxis(tickvals=[0, 1], ticktext=['Retained', 'Churned'])
             st.plotly_chart(fig, use_container_width=True)
 
     else:
