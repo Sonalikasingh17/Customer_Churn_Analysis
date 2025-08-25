@@ -1,0 +1,14 @@
+numpy
+pandas 
+seaborn
+matplotlib
+scikit-learn
+scikit-optimize
+
+# other
+joblib
+gdown
+requests
+streamlit
+
+# -e .
