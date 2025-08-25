@@ -11,6 +11,7 @@ joblib
 gdown
 requests
 streamlit
+openpyxl
 ipykernel
 
 # -e .
